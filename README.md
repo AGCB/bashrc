@@ -18,5 +18,4 @@ terminal commands I have found useful
 16. alias openalias="s ~/.bashrc" #open aliases in my current text editor, sublime
 17. alias sf="screenfetch" #program for seeing basic info on screen. 
 18. alias fixit='sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu  && sudo pacman -Suu'
-19. alias ff="sudo pacman -Syyu" #update my packages
-The last 2 are manjaroLinux specific. 
+19. alias ff="sudo pacman -Syyu" #update my packages...The last 2 are manjaroLinux specific. 
