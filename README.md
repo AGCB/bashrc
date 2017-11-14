@@ -1,9 +1,9 @@
 # bashrc
 terminal commands I have found useful
-alias v="cd ../"
-alias vv="cd ../../"
-alias vvv="cd ../../../"
-alias f="ls -al"
+1. alias v="cd ../"
+2. alias vv="cd ../../"
+3.alias vvv="cd ../../../"
+4.alias f="ls -al"
 alias t="touch"
 alias md="mkdir"
 alias rd="rmdir"
