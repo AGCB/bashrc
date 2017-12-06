@@ -22,12 +22,4 @@ terminal commands I have found useful
 20. alias howbig="du -sh" #usage as-->howbig fileOrFoldername -- -h human readable, -s summary
 21. alias aliasCheckup="history | awk '{print $2}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -n | tail | sort -nr"
 
-.# yes, Cn'P that jazz and tell me you don't see some really interesting output.
-.# it's showing you your commands, sorted by repetition. So if you run this command, you can see exactly where
-.# you can be reducing keystrokes. ... 
-.# I'm going into territory Crockford warned me about. We believe that keystroke reduction is what we need
-.# to become better programmers, but he argues that the vast amount of time is spent staring into the abyss!
-.# The elephant in the room of the code you already wrote.
-.# Either way this is an easy win. Run the command every now and then. Start at the top of your list and keep your keystrokes down 
-.# to a minimum by shifting or adding aliases. 
-.#
+
