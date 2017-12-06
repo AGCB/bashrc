@@ -20,10 +20,8 @@ terminal commands I have found useful
 18. alias fixit='sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu  && sudo pacman -Suu'
 19. alias ff="sudo pacman -Syyu" #update my packages...The last 2 are manjaroLinux specific. 
 20. alias howbig="du -sh" #usage as-->howbig fileOrFoldername -- -h human readable, -s summary
+21. alias aliasCheckup="history | awk '{print $2}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -n | tail | sort -nr"
 
-
-.# speaking of aliases, check out this bit of command line voodoo...
-.# history | awk '{print $2}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -n | tail | sort -nr
 .# yes, Cn'P that jazz and tell me you don't see some really interesting output.
 .# it's showing you your commands, sorted by repetition. So if you run this command, you can see exactly where
 .# you can be reducing keystrokes. ... 
